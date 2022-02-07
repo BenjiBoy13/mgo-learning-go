@@ -1,4 +1,4 @@
-# Chapter 2 Summary <a name="chp2"></a>
+# Chapter 2 Summary
 
 - See built-in data types in Go and how to use them properly.
 - Get an overview of string and rune types.

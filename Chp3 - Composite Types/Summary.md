@@ -1,3 +1,3 @@
-# Chapter 3 Summary <a name="chp3"></a>
+# Chapter 3 Summary
 
 **In Progress**
