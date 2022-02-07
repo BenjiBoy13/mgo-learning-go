@@ -2,7 +2,7 @@
 
 Like many other programming languages, Go has arrays, althought there are rarely use in Go.
 
-## Declaration sintax and use
+## Declaration syntax and use
 
 First and foremost, all elements in the array must be of the type specified, Go also needs to know the size of the array.
 
@@ -10,7 +10,7 @@ First and foremost, all elements in the array must be of the type specified, Go 
 var x [3]int
 ```
 
-The previous example creates an array with 3 `int's` with all the positions initialized with the respective zero value; We can also specifiy the values with an array literal.
+The previous example creates an array with 3 `int's` with all the positions initialized with the respective zero value; We can also specify the values with an array literal.
 
 ```go
 var x [3]int{0, 1, 2} // x[0] = 0; x[1] = 2; x[2] = 2
@@ -32,13 +32,13 @@ Go only has one dimensional arrays, we can simulate a multi-dimensional array bu
 var x[2][3]int 
 ```
 
-THe built in function `len` takes an array and returns it's length.
+The built-in function `len` takes an array and returns its length.
 
 ```go
 var x int[3]
 fmt.Println(len(x)) // 3
 ```
-## Restrictions and reason of existance 
+## Restrictions and reason of existence 
 
 The reason why arrays are rarely used in Go is because of the following rules; Yet arrays are an important part of Go because they are used as a backing store for `slices` which is one of the most useful features of the language. 
 
